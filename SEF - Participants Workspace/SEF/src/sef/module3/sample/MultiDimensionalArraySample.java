@@ -39,4 +39,5 @@ public class MultiDimensionalArraySample {
 		System.out.println("Access integer array location 0, 2: "
 				+ anotherIntegerArray[0][2]);
 	}
+
 }
