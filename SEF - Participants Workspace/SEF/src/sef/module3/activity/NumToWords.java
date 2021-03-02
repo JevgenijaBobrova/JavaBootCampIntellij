@@ -36,8 +36,8 @@ public class NumToWords {
                 numText = "FIVE";
                 break;
             case 6:
-				numText = "SIX";
-				break;
+                numText = "SIX";
+                break;
             case 7:
                 numText = "SEVEN";
                 break;
