@@ -1,4 +1,4 @@
-package sef.module3.activity;
+package activity;
 
 /**
  * @author 
@@ -25,7 +25,7 @@ public class OperatorActivity {
 		int sumResult = i +j;
 		
 		// Print result
-		System.out.println("Summ = " + sumResult);
+		System.out.println("Sum = " + sumResult);
 		
 	}
 
