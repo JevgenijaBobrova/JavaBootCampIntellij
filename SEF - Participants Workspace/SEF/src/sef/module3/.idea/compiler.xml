@@ -2,12 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <excludeFromCompile>
-      <file url="file://$PROJECT_DIR$/sample/CastingSample.java" />
-      <file url="file://$PROJECT_DIR$/sample/MainSample.java" />
-      <file url="file://$PROJECT_DIR$/sample/MethodSample.java" />
-      <file url="file://$PROJECT_DIR$/sample/MultiDimensionalArraySample.java" />
-      <file url="file://$PROJECT_DIR$/sample/WhileLoopSample.java" />
-      <file url="file://$PROJECT_DIR$/module3.iml" />
+      <file url="file://$PROJECT_DIR$/../module4/activity/DateActivity.java" />
+      <file url="file://$PROJECT_DIR$/../module4/sample/ClassInstanceSample.java" />
+      <file url="file://$PROJECT_DIR$/../module4/sample/FinalizeSample.java" />
+      <file url="file://$PROJECT_DIR$/../module4/sample/Person.java" />
+      <file url="file://$PROJECT_DIR$/../module4/sample/StaticSample1.java" />
+      <file url="file://$PROJECT_DIR$/../module4/sample/StaticSample2.java" />
     </excludeFromCompile>
   </component>
 </project>
