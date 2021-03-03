@@ -2,8 +2,6 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <excludeFromCompile>
-      <file url="file://$PROJECT_DIR$/../module8/activity/CustomExceptionActivity.java" />
-      <file url="file://$PROJECT_DIR$/../module8/activity/CustomExceptionActivityTest.java" />
       <file url="file://$PROJECT_DIR$/../module8/activity/ExceptionSequenceActivity.java" />
       <file url="file://$PROJECT_DIR$/../module8/activity/SQLExceptionActivity.java" />
       <file url="file://$PROJECT_DIR$/../module8/sample/ArrayExceptionSample.java" />

@@ -7,6 +7,7 @@ public class ArithmeticExceptionActivity {
         ArithmeticExceptionActivity activity = new ArithmeticExceptionActivity();
         activity.catchMe(10, 0);
         activity.catchMe(10, 2);
+
     }
 
     void catchMe(int num1, int num2) {
@@ -15,7 +16,7 @@ public class ArithmeticExceptionActivity {
 
         try {
             int result = num1 / num2;
-            System.out.println("The result is :" + result);
+            System.out.println("The result is: " + result);
         } catch (Exception ex) {
             System.out.println("You cannot divide by zero");
         } finally {
