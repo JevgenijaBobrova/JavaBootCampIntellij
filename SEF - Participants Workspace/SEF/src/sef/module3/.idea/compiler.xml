@@ -23,10 +23,7 @@
       <file url="file://$PROJECT_DIR$/../module6/activity/Point3D.class" />
       <file url="file://$PROJECT_DIR$/../module6/activity/Point3DImpl.class" />
       <file url="file://$PROJECT_DIR$/../module6/activity/Point3DTest.class" />
-      <file url="file://$PROJECT_DIR$/../module6/activity/Shape.java" />
-      <file url="file://$PROJECT_DIR$/../module6/activity/Employee_I.java" />
-      <file url="file://$PROJECT_DIR$/../module6/activity/InheritanceActivity.java" />
-      <file url="file://$PROJECT_DIR$/../module6/activity/Person_I.java" />
+      <file url="file://$PROJECT_DIR$/../module6/sample/Person_I.java" />
     </excludeFromCompile>
   </component>
 </project>

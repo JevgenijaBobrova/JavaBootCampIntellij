@@ -1,4 +1,4 @@
-package sef.module6.sample;
+package sample;
 
 public class PolymorphismSample {
 
@@ -7,7 +7,7 @@ public class PolymorphismSample {
 		
 		Person_P p = new Person_P();
 		Student_P s = new Student_P();
-		Person_P ps = new Student_P();
+		Person_P ps = new Student_P();//dynamic binding
 		
 			
 		s.setGrade(10);
