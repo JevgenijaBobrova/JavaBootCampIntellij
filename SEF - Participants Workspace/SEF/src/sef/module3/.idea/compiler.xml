@@ -2,28 +2,18 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <excludeFromCompile>
-      <file url="file://$PROJECT_DIR$/../module6/sample/AbstractionSample.java" />
-      <file url="file://$PROJECT_DIR$/../module6/sample/Bird.java" />
-      <file url="file://$PROJECT_DIR$/../module6/sample/Employee_A.java" />
-      <file url="file://$PROJECT_DIR$/../module6/sample/InheritanceSample.java" />
-      <file url="file://$PROJECT_DIR$/../module6/sample/InterfaceSample.java" />
-      <file url="file://$PROJECT_DIR$/../module6/sample/Lion.java" />
-      <file url="file://$PROJECT_DIR$/../module6/sample/Moveable.java" />
-      <file url="file://$PROJECT_DIR$/../module6/sample/Person_A.java" />
-      <file url="file://$PROJECT_DIR$/../module6/sample/Person_P.java" />
-      <file url="file://$PROJECT_DIR$/../module6/sample/PolymorphismSample.java" />
-      <file url="file://$PROJECT_DIR$/../module6/sample/ReferenceCastingSample.java" />
-      <file url="file://$PROJECT_DIR$/../module6/sample/Student_A.java" />
-      <file url="file://$PROJECT_DIR$/../module6/sample/Student_I.java" />
-      <file url="file://$PROJECT_DIR$/../module6/sample/Student_P.java" />
-      <file url="file://$PROJECT_DIR$/../module6/sample/VirtualMethodSample.java" />
-      <file url="file://$PROJECT_DIR$/../module6/activity/Point2D.class" />
-      <file url="file://$PROJECT_DIR$/../module6/activity/Point2DImpl.class" />
-      <file url="file://$PROJECT_DIR$/../module6/activity/Point2DTest.class" />
-      <file url="file://$PROJECT_DIR$/../module6/activity/Point3D.class" />
-      <file url="file://$PROJECT_DIR$/../module6/activity/Point3DImpl.class" />
-      <file url="file://$PROJECT_DIR$/../module6/activity/Point3DTest.class" />
-      <file url="file://$PROJECT_DIR$/../module6/sample/Person_I.java" />
+      <file url="file://$PROJECT_DIR$/../module8/activity/CustomExceptionActivity.java" />
+      <file url="file://$PROJECT_DIR$/../module8/activity/CustomExceptionActivityTest.java" />
+      <file url="file://$PROJECT_DIR$/../module8/activity/ExceptionSequenceActivity.java" />
+      <file url="file://$PROJECT_DIR$/../module8/activity/SQLExceptionActivity.java" />
+      <file url="file://$PROJECT_DIR$/../module8/sample/ArrayExceptionSample.java" />
+      <file url="file://$PROJECT_DIR$/../module8/sample/AssertSample.java" />
+      <file url="file://$PROJECT_DIR$/../module8/sample/CheckedExceptionSample.java" />
+      <file url="file://$PROJECT_DIR$/../module8/sample/CustomException.java" />
+      <file url="file://$PROJECT_DIR$/../module8/sample/CustomExceptionSample.java" />
+      <file url="file://$PROJECT_DIR$/../module8/sample/ErrorSample.java" />
+      <file url="file://$PROJECT_DIR$/../module8/sample/ExceptionDeclarationSample.java" />
+      <file url="file://$PROJECT_DIR$/../module8/sample/TryCatchFinallySample.java" />
     </excludeFromCompile>
   </component>
 </project>

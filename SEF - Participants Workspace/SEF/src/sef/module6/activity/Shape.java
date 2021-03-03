@@ -4,10 +4,6 @@ public abstract class Shape {
 
     public String color;
 
-    public Shape() {
-
-
-        }
 
     // Complete the code and Add abstract method calculateArea() and calculatePerimeter() with return type as double
 
