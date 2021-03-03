@@ -11,7 +11,12 @@ public class CustomExceptionActivityTest {
         CustomExceptionActivityTest activity = new CustomExceptionActivityTest();
         activity.validateUser("Mike");
         activity.validateUser("Stacie");
-        activity.validateUser("Ann");
+        try {
+            activity.validateUser("Ann");
+        } catch (CustomExceptionActivity customExceptionActivity){
+            customExceptionActivity.getMessage();
+        }
+        activity.validateUser("John");
 
     }
 
