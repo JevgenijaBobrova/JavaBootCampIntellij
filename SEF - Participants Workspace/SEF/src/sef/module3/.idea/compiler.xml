@@ -2,12 +2,31 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <excludeFromCompile>
-      <file url="file://$PROJECT_DIR$/../module4/activity/DateActivity.java" />
-      <file url="file://$PROJECT_DIR$/../module4/sample/ClassInstanceSample.java" />
-      <file url="file://$PROJECT_DIR$/../module4/sample/FinalizeSample.java" />
-      <file url="file://$PROJECT_DIR$/../module4/sample/Person.java" />
-      <file url="file://$PROJECT_DIR$/../module4/sample/StaticSample1.java" />
-      <file url="file://$PROJECT_DIR$/../module4/sample/StaticSample2.java" />
+      <file url="file://$PROJECT_DIR$/../module6/sample/AbstractionSample.java" />
+      <file url="file://$PROJECT_DIR$/../module6/sample/Bird.java" />
+      <file url="file://$PROJECT_DIR$/../module6/sample/Employee_A.java" />
+      <file url="file://$PROJECT_DIR$/../module6/sample/InheritanceSample.java" />
+      <file url="file://$PROJECT_DIR$/../module6/sample/InterfaceSample.java" />
+      <file url="file://$PROJECT_DIR$/../module6/sample/Lion.java" />
+      <file url="file://$PROJECT_DIR$/../module6/sample/Moveable.java" />
+      <file url="file://$PROJECT_DIR$/../module6/sample/Person_A.java" />
+      <file url="file://$PROJECT_DIR$/../module6/sample/Person_P.java" />
+      <file url="file://$PROJECT_DIR$/../module6/sample/PolymorphismSample.java" />
+      <file url="file://$PROJECT_DIR$/../module6/sample/ReferenceCastingSample.java" />
+      <file url="file://$PROJECT_DIR$/../module6/sample/Student_A.java" />
+      <file url="file://$PROJECT_DIR$/../module6/sample/Student_I.java" />
+      <file url="file://$PROJECT_DIR$/../module6/sample/Student_P.java" />
+      <file url="file://$PROJECT_DIR$/../module6/sample/VirtualMethodSample.java" />
+      <file url="file://$PROJECT_DIR$/../module6/activity/Point2D.class" />
+      <file url="file://$PROJECT_DIR$/../module6/activity/Point2DImpl.class" />
+      <file url="file://$PROJECT_DIR$/../module6/activity/Point2DTest.class" />
+      <file url="file://$PROJECT_DIR$/../module6/activity/Point3D.class" />
+      <file url="file://$PROJECT_DIR$/../module6/activity/Point3DImpl.class" />
+      <file url="file://$PROJECT_DIR$/../module6/activity/Point3DTest.class" />
+      <file url="file://$PROJECT_DIR$/../module6/activity/Shape.java" />
+      <file url="file://$PROJECT_DIR$/../module6/activity/Employee_I.java" />
+      <file url="file://$PROJECT_DIR$/../module6/activity/InheritanceActivity.java" />
+      <file url="file://$PROJECT_DIR$/../module6/activity/Person_I.java" />
     </excludeFromCompile>
   </component>
 </project>
