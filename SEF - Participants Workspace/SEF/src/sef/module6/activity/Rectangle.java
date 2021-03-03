@@ -6,11 +6,11 @@ public class Rectangle extends Shape {
     private double breadth;
 
     //default constructor
-    public Rectangle(){
+    public Rectangle() {
     }
 
     //parameterized constructor
-    public Rectangle (double length, double breadth){
+    public Rectangle(double length, double breadth) {
         this.length = length;
         this.breadth = breadth;
     }
@@ -18,7 +18,6 @@ public class Rectangle extends Shape {
     public double calculateArea() {
         return length * breadth;
     }
-
 
     public double calculatePerimeter() {
         return (length * 2) + (breadth * 2);
@@ -39,4 +38,7 @@ public class Rectangle extends Shape {
     public void setBreadth(double breadth) {
         this.breadth = breadth;
     }
+
+
+
 }

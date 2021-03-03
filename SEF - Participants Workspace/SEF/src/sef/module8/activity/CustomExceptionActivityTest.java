@@ -13,7 +13,7 @@ public class CustomExceptionActivityTest {
         activity.validateUser("Stacie");
         try {
             activity.validateUser("Ann");
-        } catch (CustomExceptionActivity customExceptionActivity){
+        } catch (CustomExceptionActivity customExceptionActivity) {
             customExceptionActivity.getMessage();
         }
         activity.validateUser("John");
