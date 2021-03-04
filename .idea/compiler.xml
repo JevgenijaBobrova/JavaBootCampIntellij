@@ -2,31 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <excludeFromCompile>
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/sample/AbstractionSample.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/sample/Bird.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/sample/Employee_A.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/sample/InheritanceSample.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/sample/InterfaceSample.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/sample/Lion.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/sample/Moveable.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/sample/Person_A.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/sample/Person_I.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/sample/Person_P.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/sample/PolymorphismSample.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/sample/ReferenceCastingSample.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/sample/Student_A.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/sample/Student_I.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/sample/Student_P.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/sample/VirtualMethodSample.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/activity/Employee_I.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/activity/InheritanceActivity.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/activity/Person_I.java" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/activity/Point2D.class" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/activity/Point2DImpl.class" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/activity/Point2DTest.class" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/activity/Point3D.class" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/activity/Point3DImpl.class" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module6/activity/Point3DTest.class" />
+      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module17/sample/MyCalculator.java" />
+      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module17/sample/MyCalculatorTest.java" />
+      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module17/sample/MyCalTest2.java" />
+      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module17/sample/Product.java" />
+      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module17/sample/ProductTests.java" />
+      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module17/activity/Module 17 Activity - Test Scenarios and Conditions.xls" />
+      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module17/activity/EmployeeJDBCTest.java" />
     </excludeFromCompile>
     <bytecodeTargetLevel target="15" />
   </component>
