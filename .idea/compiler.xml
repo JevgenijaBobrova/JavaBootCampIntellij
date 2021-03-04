@@ -8,7 +8,6 @@
       <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module17/sample/Product.java" />
       <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module17/sample/ProductTests.java" />
       <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module17/activity/Module 17 Activity - Test Scenarios and Conditions.xls" />
-      <file url="file://$PROJECT_DIR$/SEF - Participants Workspace/SEF/src/sef/module17/activity/EmployeeJDBCTest.java" />
     </excludeFromCompile>
     <bytecodeTargetLevel target="15" />
   </component>

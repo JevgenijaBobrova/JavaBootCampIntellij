@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.util.ArrayList;
 
 import junit.framework.TestCase;
+import org.junit.Test;
 
 public class EmployeeJDBCTest extends TestCase {
 
@@ -21,9 +22,8 @@ public class EmployeeJDBCTest extends TestCase {
 	}
 
 	public void testFindEmployeeById_MatchFound() {
-		Employee em = emp.findEmployeeById(1);
-		assertEquals("Atif", em.getFirstName());
-		assertEquals("mahmood", em.getFirstName());
+		Employee em = emp.findEmployeeById(5);
+		assertEquals("Ann", em.getFirstName());
 	}
 
 	public void testFindEmployeeById_NoMatchFound() {

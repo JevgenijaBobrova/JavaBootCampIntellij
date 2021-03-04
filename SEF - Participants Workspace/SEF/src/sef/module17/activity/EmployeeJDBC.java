@@ -18,6 +18,7 @@ public class EmployeeJDBC {
         Employee e1 = new Employee();
         e1 = findEmployeeById(1);
         System.out.println(e1.getFirstName());
+        System.out.println(e1.getSalary());
         Employee e2 = new Employee();
         e2.setId(6);
         e2.setFirstName("Jane");
@@ -142,12 +143,14 @@ public class EmployeeJDBC {
             pStmt3.setString(2, emp.getFirstName());
             pStmt3.setString(3, emp.getLastName());
             pStmt3.setInt(4, emp.getSalary());
-            int rs = pStmt3.executeUpdate();
+
 
 
             //	Substitute the ? now.
 
             //2 - Execute this query using executeUpdate()
+            int rs = pStmt3.executeUpdate();
+
             if (rs == 1) {
                 System.out.println("You have successfully inserted values");
             } else {
