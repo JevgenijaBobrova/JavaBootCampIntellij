@@ -13,8 +13,8 @@ public class Students extends Person {
    }
 
 
-    public void introduceStudent(){
-        System.out.println("My name is " + name + " and I am " + age + " years old. I study in university " + schoolName);
+    public String introduceStudent(){
+        return "My name is " + name + " and I am " + age + " years old. I study in university " + schoolName;
     }
 
 

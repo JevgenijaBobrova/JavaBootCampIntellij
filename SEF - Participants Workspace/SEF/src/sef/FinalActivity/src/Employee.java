@@ -16,9 +16,9 @@ public class Employee extends Person {
         this.salary = salary;
     }
 
-    public void introduceEmployee() {
-        System.out.println("My name is " + name + " and I am " + age +
-                " years old. I work as a " + jobTitle + " in " + company);
+    public String introduceEmployee() {
+        return "My name is " + name + " and I am " + age +
+                " years old. I work as a " + jobTitle + " in " + company;
 
     }
 

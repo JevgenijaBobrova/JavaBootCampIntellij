@@ -6,13 +6,13 @@ public class FirstActivity {
     public static void main(String[] args) {
 
         Employee employee1 = new Employee("John", 26, "Developer", "ABCompany", 1300);
-        employee1.introduceEmployee();
+        System.out.println(employee1.introduceEmployee());
         Employee employee2 = new Employee("Anna", 33, "Tester", "ABCompany", 1100);
-        employee2.introduceEmployee();
+        System.out.println(employee2.introduceEmployee());
         Employee employee3 = new Employee("Sarah", 36, "Senior Developer", "ABCompany", 2000);
-        employee3.introduceEmployee();
+        System.out.println(employee3.introduceEmployee());
         Employee employee4 = new Employee("Alex", 22, "Junior Tester", "ABCompany", 900);
-        employee4.introduceEmployee();
+        System.out.println(employee4.introduceEmployee());
         System.out.println("---------------------------------");
 
         Integer[] employeeSalary = {employee1.getSalary(), employee2.getSalary(), employee3.getSalary(), employee4.getSalary()};
