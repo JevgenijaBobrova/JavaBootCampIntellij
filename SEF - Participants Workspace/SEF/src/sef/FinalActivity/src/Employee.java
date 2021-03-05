@@ -8,8 +8,9 @@ public class Employee extends Person {
 
     }
 
-    public Employee(String name, int age, String jobTitle, String company, int salary) {
-        this.name = name;
+    public Employee(String firstName, String secondName, int age, String jobTitle, String company, int salary) {
+        this.firstName = firstName;
+        this.secondName = secondName;
         this.age = age;
         this.jobTitle = jobTitle;
         this.company = company;
@@ -17,7 +18,7 @@ public class Employee extends Person {
     }
 
     public String introduceEmployee() {
-        return "My name is " + name + " and I am " + age +
+        return "My name is " + firstName + " " + secondName + " and I am " + age +
                 " years old. I work as a " + jobTitle + " in " + company;
 
     }

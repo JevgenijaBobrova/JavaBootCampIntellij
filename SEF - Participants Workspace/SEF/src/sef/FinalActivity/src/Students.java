@@ -6,15 +6,16 @@ public class Students extends Person {
 
    }
 
-   public Students (String schoolName, String name, int age){
+   public Students (String schoolName, String firstName, String secondName, int age){
        this.schoolName = schoolName;
-       this.name = name;
+       this.firstName = firstName;
+       this.secondName = secondName;
        this.age = age;
    }
 
 
     public String introduceStudent(){
-        return "My name is " + name + " and I am " + age + " years old. I study in university " + schoolName;
+        return "My name is " + firstName + " " + secondName + " and I am " + age + " years old. I study in university " + schoolName;
     }
 
 

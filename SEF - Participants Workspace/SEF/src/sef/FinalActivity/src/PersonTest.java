@@ -18,11 +18,11 @@ public class PersonTest {
     }
 
     @Test
-    public void introducePerson() {
-        Person person1 = new Person("Agent Smith", 45);
+    public void testIntroducePerson() {
+        Person person1 = new Person("Agent", "Smith", 45);
         assertEquals("My name is Agent Smith and I am 45 years old", person1.introducePerson());
 
-        Person person2 = new Person("Erik", 30);
+        Person person2 = new Person("Erik", "Watson", 30);
         assertEquals("My name is Erik and I am 30 years old", person2.introducePerson());
 
 

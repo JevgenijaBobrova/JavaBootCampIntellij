@@ -1,19 +1,21 @@
 public class Person {
 
-    String name;
+    String firstName;
+    String secondName;
     int age;
 
-    public Person(){
+ Person(){
 
-    }
+ }
 
-    public Person (String name, int age){
-        this.name = name;
+    public Person (String firstName, String secondName, int age){
+        this.firstName = firstName;
+        this.secondName = secondName;
         this.age = age;
     }
 
     public String introducePerson() {
-        return "My name is " + name + " and I am " + age + " years old";
+        return "My name is " + firstName + " " + secondName + " and I am " + age + " years old";
     }
 }
 

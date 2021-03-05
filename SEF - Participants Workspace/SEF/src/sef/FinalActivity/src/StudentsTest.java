@@ -6,11 +6,11 @@ public class StudentsTest {
 
 
     @Test
-    public void introduceStudent() {
-        Students student1 = new Students("Some College", "John", 18);
+    public void testIntroduceStudent() {
+        Students student1 = new Students("Some College", "John", "Smith", 18);
         assertEquals("My name is John and I am 18 years old. I study in university Some College", student1.introduceStudent());
 
-        Students student2 = new Students("Some Other College", "Boris", 22);
+        Students student2 = new Students("Some Other College", "Boris", "Fischer", 22);
         assertEquals("My name is Boris and I am 22 years old. I study in university Some Other College", student2.introduceStudent());
     }
 }
