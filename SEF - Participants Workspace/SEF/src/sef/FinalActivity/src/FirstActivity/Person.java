@@ -5,7 +5,6 @@ public class Person {
     // The method that demonstrates the custom exception in action is in FirstActivity.PersonCustomException.
     // Tests are in FirstActivity.PersonTest.
 
-
     String firstName;
     String secondName;
     int age;
@@ -45,6 +44,14 @@ public class Person {
                 this.secondName = secondName;
             }
         }
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getSecondName() {
+        return secondName;
     }
 }
 
