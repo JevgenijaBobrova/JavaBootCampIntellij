@@ -35,7 +35,9 @@ public class FirstActivity { //contains Bonus tasks Nr. 2, 4.
 
     public static void printToFile()  {
         try (PrintWriter out = new PrintWriter("Employees.txt")) {
-                out.println(employees.toString());
+            for (int i = 0; i < employees.length; i++) {
+                out.println(employees[i].firstName + " " + employees[i].secondName);
+            }
                 System.out.println("Printed to file successfully");
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
