@@ -8,8 +8,7 @@ public class CustomExceptionActivity extends Exception {
     // "You are not allowed to use this program"
     @Override
     public String getMessage() {
-        System.out.println("You are not allowed to use this program ");
-        return null;
+        return "You are not allowed to use this program";
     }
 
 }

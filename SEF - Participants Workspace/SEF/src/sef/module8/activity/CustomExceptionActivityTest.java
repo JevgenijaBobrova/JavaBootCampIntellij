@@ -14,7 +14,7 @@ public class CustomExceptionActivityTest {
         try {
             activity.validateUser("Ann");
         } catch (CustomExceptionActivity customExceptionActivity) {
-            customExceptionActivity.getMessage();
+            System.out.println(customExceptionActivity.getMessage());
         }
         activity.validateUser("John");
 
@@ -27,7 +27,7 @@ public class CustomExceptionActivityTest {
         int flag = 0;
         //2 - Write code to check if parameter name contains a value which is found in validUsers array and change flag's value accordingly
         for (int i = 0; i < 4; i++) {
-            if (name == validUsers[i]) {
+            if (name.equals(validUsers[i])) {
                 flag = 1;
                 break;
             }
