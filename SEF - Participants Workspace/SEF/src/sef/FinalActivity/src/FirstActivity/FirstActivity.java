@@ -1,3 +1,5 @@
+package FirstActivity;
+
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -12,7 +14,7 @@ public class FirstActivity {
 
         Employee[] employees = {employee1, employee2, employee3, employee4};
         Arrays.sort(employees, Comparator.comparing(Employee::getSalary).reversed());
-        System.out.println("Employee list according to salaries (from high to low):");
+        System.out.println("FirstActivity.Employee list according to salaries (from high to low):");
         for (int i = 0; i < employees.length; i++) {
             System.out.println(employees[i].firstName + " " + employees[i].secondName + ", " + employees[i].getSalary());
         }

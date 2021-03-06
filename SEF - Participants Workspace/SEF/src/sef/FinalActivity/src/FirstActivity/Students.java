@@ -1,3 +1,5 @@
+package FirstActivity;
+
 public class Students extends Person {
 
    String schoolName;
