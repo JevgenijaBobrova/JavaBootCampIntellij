@@ -22,6 +22,12 @@ public class Students extends Person implements Human {
 
 
     @Override
+    public void firstLanguage(String language) {
+        System.out.println("My first language is " + language);
+
+    }
+
+    @Override
     public void hasAPet(boolean hasAPet, String pet) {
         if (hasAPet) {
             System.out.println("I have a pet, it's a " + pet);
