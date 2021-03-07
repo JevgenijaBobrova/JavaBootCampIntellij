@@ -1,6 +1,6 @@
 package FirstActivity;
 
-public class Students extends Person {
+public class Students extends Person implements Human {
 
    String schoolName;
 
@@ -21,4 +21,22 @@ public class Students extends Person {
     }
 
 
+    @Override
+    public void hasAPet(boolean hasAPet, String pet) {
+        if (hasAPet) {
+            System.out.println("I have a pet, it's a " + pet);
+        } else {
+            System.out.println("No, I don't have a pet");
+        }
+    }
+
+    @Override
+    public void hasAHobby(boolean hasAHobby, String hobby) {
+        if (hasAHobby) {
+            System.out.println("I have a hobby - " + hobby);
+        } else {
+            System.out.println("I don't really have a hobby");
+        }
+
+    }
 }
